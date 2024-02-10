@@ -1,142 +1,139 @@
 {
-    "Version": "57",
-    "ReleaseNotes": "Atualização importante,",
-    "Sms": "https://painel4g.alphi.media/update/mega/sms",
-    "UrlUpdate": "https://painel4g.alphi.media/update/mega/config",
-    "EmailFeedback": "Rp",
-    "UrlContato": "https://t.me/CANALMEGAVPN",
-    "UrlTermos": "Bdh",
-    "CheckUser": "true",
-    "Udp": [
-        {
-            "Porta": "7300"
-        }
-    ],
-    "Servers": [
-        {
-            "Name": "br01",
-            "TYPE": "free",
-            "FLAG": "br.png",
-            "ServerIP": "br1.megassh.shop",
-            "CheckUser": "http://br1.megassh.shop:81/checkUser",
-            "ServerPort": "22",
-            "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
-        },
-        {
-            "Name": "br02",
-            "TYPE": "free",
-            "FLAG": "br.png",
-            "ServerIP": "br2.megassh.shop",
-            "CheckUser": "http://br2.megassh.shop:81/checkUser",
-            "ServerPort": "80",
-            "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
-        },
-        {
-            "Name": "BR PREMIUM ",
-            "TYPE": "premium",
-            "FLAG": "br.png",
-            "ServerIP": "pre.megassh.shop",
-            "CheckUser": "http://pre.megassh.shop:81/checkUser",
-            "ServerPort": "8080",
-            "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
-        }
-    ],
-    "Networks": [
-        {
-            "Name": "TIM SALDO VALIDO ",
-            "FLAG": "tim",
-            "Payload": "PUT / HTTP/1.1[lf]Host: api.sandbox.c6bank.com.br[lf]Expect: [lf][split][lf]ACL / HTTP/1.1[lf]Host: [app_host][lf]Expect: [lf]Upgrade: websocket[lf]User-Agent: yes[lf][lf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO",
-            "FLAG": "vivo",
-            "Payload": "GET ws://api.sandbox.c6bank.com.br HTTP/1.3[lf]Host: api.sandbox.c6bank.com.br [lf][split][lf]GET- / HTTP/1.3[lf]Host: [app_host][lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "Tim 2",
-            "FLAG": "tim",
-            "Payload": "GET ws://api.sandbox.c6bank.com.br HTTP/1.3[lf]Host: api.sandbox.c6bank.com.br [lf][split][lf]GET- / HTTP/1.3[lf]Host: [app_host][lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "TIM SALDO EXPIRADO",
-            "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]Host: megassh.rpssh.xyz[protocol][crlf]|[crlf]",
-            "SNI": "",
-            "TlsIP": "[app_host]",
-            "ProxyIP": "[app_host]",
-            "ProxyPort": "80",
-            "Info": "Direct"
-        },
-        {
-            "Name": "VIVO SSL",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-            "SNI": "megassh.rpssh.xyz",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "443",
-            "Info": "Tlsws"
-        },
-        {
-            "Name": "VIVO 2",
-            "FLAG": "vivo",
-            "Payload": "GET ws://api.sandbox.c6bank.com.br HTTP/1.3[lf]Host: api.sandbox.c6bank.com.br [lf][split][lf]GET- / HTTP/1.3[lf]Host: [app_host][lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
-            "SNI": "",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
-            "ProxyPort": "8080",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO NOVA",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "104.18.23.26",
-            "ProxyIP": "104.18.23.26",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-   {
-            "Name": "VIVO SECURITY",
-            "FLAG": "vivo",
-            "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: pre.megassh.shop[lf][lf]",
-            "SNI": "",
-            "TlsIP": "[app_host]",
-            "ProxyIP": "[app_host]",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "VIVO NOVA 2",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "104.18.23.26",
-            "ProxyIP": "104.18.23.26",
-            "ProxyPort": "8080",
-            "Info": "Proxy"
-        }
-    ]
+  "Version": "1.13",
+  "ReleaseNotes": "opa atualização necessária",
+  "UrlUpdate": "https://megassh.shop/pluin.rp",
+  "CheckUser": "true",
+  "BackgroundLink": "https://i.ibb.co/TTxTG6j/purple-phone-wallpaper-51-394x700.jpg",
+  "LogoLink": "https://i.ibb.co/d4vBVtd/ic-star-icon.png",
+  "UdpPort": "7300",
+  "Sms": "https://raw.githubusercontent.com/RPful/4G/main/sms",
+  "EmailFeedback": "apolossh@gmail.com",
+  "UrlContato": "https://t.me/canalmegavpn",
+  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "Servers": [
+  {
+      "Name": "B02",
+      "TYPE": "FREE",
+      "FLAG": "br.png",
+      "ServerIP": "br2.megassh.shop",
+      "CheckUser": "http://br2.megassh.shop:82/checkUser",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "premium",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "pre.megassh.shop",
+      "CheckUser": "http://pre.megassh.shop:82/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "V - 01 b- DIRECT",
+      "FLAG": "vivo.png",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: pre.megassh.shop[lf][lf] ",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "V - 02 - DIRECT",
+      "FLAG": "vivo.png",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: pre.megassh.shop[lf][lf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "V - 03 - DIRECT",
+      "FLAG": "vivo.png",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: pre.megassh.shop[lf][lf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "V - 04 - Planos",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "V - 05 - EASY 2",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "V - 06 - EASY PLANOS",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "T - 01 - DIRECT",
+      "FLAG": "tim.png",
+      "Payload": "HTTP/ [crlf][crlf]Host: pre.megassh.shpo[protocol][crlf]|[crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+     {
+      "Name": "T - 02 - expirado ws",
+      "FLAG": "tim.png",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: WebSocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.239.166",
+      "ProxyIP": "104.16.239.166",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+     {
+      "Name": "T - 03 - expirado ws",
+      "FLAG": "tim.png",
+      "Payload": "ACL wss://[app_host] HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "104.18.28.182",
+      "ProxyIP": "172.64.154.143",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "T - 04 - regiao",
+      "FLAG": "tim.png",
+      "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    }
+  ]
 }
