@@ -1,5 +1,5 @@
 {
-  "Version": "1.17",
+  "Version": "1.18",
   "ReleaseNotes": "opa atualização necessária",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -27,7 +27,7 @@
       "TYPE": "FREE",
       "FLAG": "br.png",
       "ServerIP": "br5.megassh.shop",
-      "CheckUser": "https://painel.megassh.shop/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
+      "CheckUser": "https://painel.megassh.shop/apiproxy/proxy.php?url=http://br5.megassh.shop:82/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
