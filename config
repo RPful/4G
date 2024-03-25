@@ -1,5 +1,5 @@
 {
-  "Version": "1.20",
+  "Version": "1.21",
   "ReleaseNotes": "opa atualização necessária",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -38,7 +38,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pre.megassh.shop",
-      "CheckUser": "https://srcs.alphi.media/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
+      "CheckUser": "http://srcs.alphi.media/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -83,7 +83,7 @@
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "104.16.51.111",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
@@ -103,7 +103,7 @@
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "104.18.6.80",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
