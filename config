@@ -38,7 +38,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pre.megassh.shop",
-      "CheckUser": "http://srcs.alphi.media/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
+      "CheckUser": "https://srcs.alphi.media/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
