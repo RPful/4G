@@ -1,5 +1,5 @@
 {
-  "Version": "1.27",
+  "Version": "1.28",
   "ReleaseNotes": "opa atualização necessária",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -92,7 +92,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
-      "ProxyIP": "104.16.51.111",
+      "ProxyIP": "104.17.71.206",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
