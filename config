@@ -1,5 +1,5 @@
 {
-  "Version": "1.31",
+  "Version": "1.32",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -38,7 +38,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pre.megassh.shop",
-      "CheckUser": "https://megavpnlite.shop/apiproxy/proxy.php?url=http://209.14.70.192:82/checkUser",
+      "CheckUser": "https://terraatualizada.com/checkuser.php?url=http://209.14.70.192:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
