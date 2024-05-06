@@ -49,7 +49,7 @@
     {
       "Name": "V - 01 b- DIRECT",
       "FLAG": "vivo.png",
-      "Payload": "GET /app9 HTTP/1.1\nHost: pre.megassh.shop\nConnection: Upgrade\nUpgrade: websocket\\n\\n,
+      "Payload": "GET /app9 HTTP/1.1\nHost: pre.megassh.shop\nConnection: Upgrade\nUpgrade: websocket\\n\\n",
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "[app_host]",
