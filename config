@@ -1,5 +1,5 @@
 {
-  "Version": "1.35",
+  "Version": "1.36",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -67,9 +67,9 @@
       "Info": "Proxy"
     },
 {
-      "Name": "V - 03 - DIRECT",
+      "Name": "V - 03 - PRE",
       "FLAG": "vivo.png",
-      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: pre.megassh.shop[lf][lf]",
+      "Payload": "ACL sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: vivo.megassh.shop [crlf]X-Forward-Host: vivo.megassh.shop[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "[app_host]",
