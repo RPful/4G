@@ -1,5 +1,5 @@
 {
-  "Version": "1.36",
+  "Version": "1.37",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -51,8 +51,8 @@
       "FLAG": "vivo.png",
       "Payload": "GET /app9 HTTP/1.1\nHost: pre.megassh.shop\nConnection: Upgrade\nUpgrade: websocket\\n\\n",
       "SNI": "",
-      "TlsIP": "[app_host]",
-      "ProxyIP": "[app_host]",
+      "TlsIP": "152.67.54.168",
+      "ProxyIP": "152.67.54.168",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
