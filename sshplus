@@ -91,7 +91,6 @@ wget --no-check-certificate -q https://209.14.70.192/scripts/cert.crt
 if [ ! -f /usr/local/share/ca-certificates/cert.crt ]
 mv cert.crt /usr/local/share/ca-certificates/
 update-ca-certificates
-else
 rm cert.crt
 fi
 apt install unzip -y
