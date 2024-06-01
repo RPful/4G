@@ -60,9 +60,7 @@ fi
 if ! grep -q "209.14.70.192 https://sshplus.xyz" /etc/cloud/templates/hosts.debian.tmpl; then
 echo "1209.14.70.192 https://sshplus.xyz" >> /etc/cloud/templates/hosts.debian.tmpl
 fi
-if ! grep -q  "209.14.70.192 sshplus.xyz" /etc/cloud/templates/hosts.debian.tmpl; then
-echo "209.14.70.192 sshplus.xyz" >> /etc/cloud/templates/hosts.debian.tmpl
-fi
+
 sysctl -p
 
 if [ ! -d "/etc/SSHPlus" ];
