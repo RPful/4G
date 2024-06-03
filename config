@@ -1,5 +1,5 @@
 {
-  "Version": "1.44",
+  "Version": "1.45",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -54,7 +54,7 @@
       "TlsIP": "152.67.54.168",
       "ProxyIP": "152.67.54.168",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
     {
       "Name": "V - 02 - DIRECT",
