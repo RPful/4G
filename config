@@ -1,5 +1,5 @@
 {
-  "Version": "1.43",
+  "Version": "1.44",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -23,12 +23,12 @@
       "PASS": ""
     },
 {
-      "Name": "BR3",
+      "Name": "BR2 pre",
       "TYPE": "FREE",
       "FLAG": "br.png",
-      "ServerIP": "br5.megassh.shop",
+      "ServerIP": "152.67.54.168",
       "CheckUser": "https://terraatualizada.com/checkuser.php?url=http://34.151.197.22:5454/checkUser",
-      "ServerPort": "22",
+      "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
