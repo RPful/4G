@@ -1,5 +1,5 @@
 {
-  "Version": "1.46",
+  "Version": "1.47",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -51,8 +51,8 @@
       "FLAG": "vivo.png",
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "152.67.54.168",
-      "ProxyIP": "152.67.54.168",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "[app_host]",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -109,7 +109,7 @@
     {
       "Name": "T - 01 - DIRECT",
       "FLAG": "tim.png",
-      "Payload": "HTTP/ [crlf][crlf]Host: pre.megassh.shpo[protocol][crlf]|[crlf]",
+      "Payload": "HTTP/ [crlf][crlf]Host: pre.megassh.shop[protocol][crlf]|[crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "[app_host]",
