@@ -50,7 +50,7 @@
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]Upgrade: Upgrade[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
-      "ProxyIP": "[app_host]",
+      "ProxyIP": "152.67.54.168",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
