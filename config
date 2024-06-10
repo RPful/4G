@@ -1,10 +1,8 @@
 {
-  "Version": "1.48",
+  "Version": "1.49",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
-  "BackgroundLink": "https://i.ibb.co/TTxTG6j/purple-phone-wallpaper-51-394x700.jpg",
-  "LogoLink": "https://i.ibb.co/d4vBVtd/ic-star-icon.png",
   "UdpPort": "7300",
   "Sms": "https://raw.githubusercontent.com/RPful/4G/main/sms",
   "EmailFeedback": "apolossh@gmail.com",
