@@ -1,5 +1,5 @@
 {
-  "Version": "1.51",
+  "Version": "1.52",
   "ReleaseNotes": "opa atualização necessária\n aproveite e entre no canal\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -21,7 +21,7 @@
       "PASS": ""
     },
 {
-      "Name": "BR2 pre",
+      "Name": "BR2 ipvps",
       "TYPE": "FREE",
       "FLAG": "br.png",
       "ServerIP": "152.67.54.168",
@@ -36,6 +36,17 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pre.megassh.shop",
+      "CheckUser": "https://terraatualizada.com/checkuser.php?url=http://209.14.70.192:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+{
+      "Name": "premium ipvps",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "209.14.70.192",
       "CheckUser": "https://terraatualizada.com/checkuser.php?url=http://209.14.70.192:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -107,7 +118,7 @@
     {
       "Name": "T - 01 - DIRECT",
       "FLAG": "tim.png",
-      "Payload": "HTTP/ [crlf][crlf]Host: pre.megassh.shop[protocol][crlf]|[crlf]",
+      "Payload": "HTTP/1.0 [crlf][crlf]Host: pre.megassh.shop[protocol][crlf]|[crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "[app_host]",
