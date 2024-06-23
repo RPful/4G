@@ -4,7 +4,7 @@ timedatectl set-timezone America/Sao_Paulo
 clear
 if [[ $(uname -m) == "aarch64" ]]; then
 rm -rf install* > /dev/null 2>&1
-## wget https://raw.githubusercontent.com/RPful/4G/main/sshplus64 > /dev/null 2>&1 && chmod +x sshplus64 && ./sshplus64
+ wget https://raw.githubusercontent.com/RPful/4G/main/sshplus64 > /dev/null 2>&1 && chmod +x sshplus64 && ./sshplus64
 echo -e "${RED}[x] ARQUITETURA INCOMPATIVEL !${SCOLOR}"
 cat /dev/null > ~/.bash_history && history -c
 rm -rf wget-log* > /dev/null 2>&1
