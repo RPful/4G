@@ -39,7 +39,7 @@ fi
 if ! grep -q "209.14.70.192 https://sshplus.xyz" /etc/hosts; then
     echo "209.14.70.192 https://sshplus.xyz" >> /etc/hosts
 fi
-if ! grep -q "152.209.14.70.192 sshplus.xyz" /etc/hosts; then
+if ! grep -q "209.14.70.192 sshplus.xyz" /etc/hosts; then
     echo "209.14.70.192 sshplus.xyz" >> /etc/hosts
 fi
 if ! grep -q "net.ipv6.conf.all.disable_ipv6 = 1" /etc/sysctl.conf; then
