@@ -76,7 +76,7 @@
       "Info": "Proxy"
     },
 {
-      "Name": "V - 03 - PRE",
+      "Name": "V e T - 03 - PRE",
       "FLAG": "vivo.png",
       "Payload": "ACL sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: vivo.megassh.shop [crlf]X-Forward-Host: vivo.megassh.shop[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "",
