@@ -1,6 +1,6 @@
 {
-  "Version": "1.67",
-  "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR \naproveite e entre no canal no Telegram\n @canalmegavpn",
+  "Version": "1.68",
+  "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
   "UdpPort": "7300",
