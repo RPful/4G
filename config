@@ -40,8 +40,8 @@
       "CheckUser": "https://casualdicas.com/checkuser.php?url=http://152.67.54.168:5454/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
-      "USER": "t",
-      "PASS": "6"
+      "USER": "",
+      "PASS": ""
     },
 
 
