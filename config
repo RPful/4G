@@ -1,5 +1,5 @@
 {
-  "Version": "1.73",
+  "Version": "1.76",
   "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -168,6 +168,16 @@
       "SNI": "",
       "TlsIP": "revive.timrecompensas.com.br",
       "ProxyIP": "revive.timrecompensas.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+{
+      "Name": "T - 000 - expirado e ws",
+      "FLAG": "tim.png",
+      "Payload": "GET / HTTP/1.1[lf]Host: apf.maisvantagenstim.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "SNI": "",
+      "TlsIP": "172.66.0.157",
+      "ProxyIP": "172.66.0.157",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
