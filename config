@@ -1,5 +1,5 @@
 {
-  "Version": "1.78",
+  "Version": "1.79",
   "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -92,7 +92,7 @@
     },
   
 {
-      "Name": "VIVO EASY 1",
+      "Name": "VIVO e",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "[app_host]", 
@@ -117,9 +117,9 @@
       "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "[app_host]",
       "TlsIP": "104.18.7.41",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "ProxyIP": "104.18.7.41",
+      "ProxyPort": "80",
+      "Info": "Proxy"
         },
     {
       "Name": "V - 02 - DIRECT",
