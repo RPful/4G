@@ -96,7 +96,7 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "[app_host]", 
-      "TlsIP": "[app_host]",
+      "TlsIP": "188.114.99.229",
       "ProxyIP": "188.114.99.229",
       "ProxyPort": "443",
       "Info": "Tlsws"
