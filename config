@@ -98,7 +98,7 @@
       "SNI": "[app_host]", 
       "TlsIP": "188.114.99.229",
       "ProxyIP": "188.114.99.229",
-      "ProxyPort": "443",
+      "ProxyPort": "80",
       "Info": "Tlsws"
         },
 {
