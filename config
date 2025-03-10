@@ -112,12 +112,12 @@
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO EASY 1",
+      "Name": "VIVO Planos1",
       "FLAG": "vivo",
       "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.18.7.41",
-      "ProxyIP": "104.18.7.41",
+      "TlsIP": "104.17.70.206",
+      "ProxyIP": "104.17.70.206",
       "ProxyPort": "80",
       "Info": "Proxy"
         },
@@ -157,7 +157,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
-      "ProxyIP": "104.17.71.206",
+      "ProxyIP": "141.193.213.10",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
