@@ -1,5 +1,5 @@
 {
-  "Version": "1.83",
+  "Version": "1.84",
   "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -143,12 +143,12 @@
       "Info": "Proxy"
     },
 {
-      "Name": "V e T - 03 - PRE",
+      "Name": "V - PRE",
       "FLAG": "vivo.png",
-      "Payload": "ACL sni://cdn.jsdelivr.net HTTP/1.1[crlf]Host: vivo.megassh.shop [crlf]X-Forward-Host: vivo.megassh.shop[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "\n\rGET wss://[app_host] [split]HTTP/1.1 [lf]Expect:100-continue[lf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "[app_host]",
-      "ProxyIP": "[app_host]",
+      "ProxyIP": "162.159.140.159,
       "ProxyPort": "80",
       "Info": "Proxy"
     },
