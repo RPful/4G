@@ -1,5 +1,5 @@
 {
-  "Version": "1.87",
+  "Version": "1.88",
   "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -80,7 +80,19 @@
     }
   ],
   "Networks": [
-    {
+{
+      "Name": "ViVo NOVO modo ✈️",
+      "FLAG": "tim.png",
+      "Payload": "MERGE / HTTP/1.1[split][crlf] HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-Alive[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.26.13.205",
+      "ProxyIP": "104.26.13.205",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+
+
+{
       "Name": "V - 01 b- DIRECT",
       "FLAG": "vivo.png",
       "Payload": "ACL HTTP/1.3[crlf]Host: pre.megassh.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf][crlf]",
