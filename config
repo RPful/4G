@@ -218,7 +218,7 @@
     {
       "Name": "T - 01 - DIRECT Socks",
       "FLAG": "tim.png",
-      "Payload": "HTTP/ 2[lf]Host: vivo.com",
+      "Payload": "HTTP/1.0 [lf]Host: vivo.com.br[lf][lf]",
       "SNI": "",
       "TlsIP": "[app_host]",
       "ProxyIP": "[app_host]",
