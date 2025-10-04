@@ -1,5 +1,5 @@
 {
-  "Version": "1.93",
+  "Version": "1.94",
   "ReleaseNotes": "\nopa atualização necessária\n AJUSTES NA CONFIGURAÇÃO DO SERVIDOR Novo servidor adicionado\naproveite e entre no canal no Telegram\n @canalmegavpn",
   "UrlUpdate": "https://raw.githubusercontent.com/RPful/4G/main/config",
   "CheckUser": "true",
@@ -195,6 +195,16 @@
       "Info": "Proxy"
     },
 
+{
+      "Name": "T - novo -  ws",
+      "FLAG": "tim.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: bancah.com.br[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: megassh.shop[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: bancah.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "bancah.com.br",
+      "ProxyIP": "bancah.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
 {
       "Name": "T - 00 - expirado e válido ws",
       "FLAG": "tim.png",
